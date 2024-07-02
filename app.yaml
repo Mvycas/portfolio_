@@ -1,0 +1,9 @@
+name: portfolio
+services:
+- name: portfolio-service
+  github:
+    repo: mvycas/portfolio_
+    branch: master
+  build_command: npm install --legacy-peer-deps && npm run build
+  run_command: npm start
+  environment_slug: node-js
