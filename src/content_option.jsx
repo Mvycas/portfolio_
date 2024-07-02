@@ -45,33 +45,34 @@ const dataportfolio = [{
         pictures: [
             {
                 src: "/images/internship/Picture6.png",
-                width: 4,
-                height: 4
+                width: 1303,
+                height: 1079
               },
               {
                 src: "/images/internship/Picture5.png",
-                width: 4,
-                height: 3
+                width: 1098,
+                height: 1056
               },
               {
                 src: "/images/internship/Picture3.png",
-                width: 4,
-                height: 3
+                width: 1325,
+                height: 1014
               },
               {
                 src: "/images/internship/Picture4.png",
-                width: 4,
-                height: 3
+                width: 1244,
+                height: 1070
               },
               {
                 src: "/images/internship/Picture1.png",
-                width: 3,
-                height: 3
+                th: "/images/internship/Picture1-th.png",
+                width: 723,
+                height: 922
               },
               {
                 src: "/images/internship/Picture2.png",
-                width: 3.6,
-                height: 3
+                width: 971,
+                height: 819
               },
         ],
         link: "/portfolio/project/1",
@@ -88,33 +89,33 @@ const dataportfolio = [{
         pictures: [
             {
                 src: "/images/DIFOU/game2.png",
-                width: 4,
-                height: 3
+                width: 1732,
+                height: 1247
               },
               {
                 src: "/images/DIFOU/game3.png",
-                width: 4,
-                height: 3
+                width: 1567,
+                height: 1193
               },
               {
                 src: "/images/DIFOU/game1.png",
-                width: 5,
-                height: 3
+                width: 1792,
+                height: 1363
               },
               {
                 src: "/images/DIFOU/shader.png",
-                width: 4,
-                height: 3
+                width: 1784,
+                height: 1181
               },
               {
                 src: "/images/DIFOU/occlusion.png",
-                width: 4,
-                height: 4
+                width: 1139,
+                height: 1155
               },
               {
                 src: "/images/DIFOU/menu.png",
-                width: 4,
-                height: 3
+                width: 1208,
+                height: 864
               },
         ],
         link: "/portfolio/project/2",
@@ -129,23 +130,23 @@ const dataportfolio = [{
         pictures: [
             {
                 src: "/images/IDX/figma1.png",
-                width: 4,
-                height: 3
+                width: 1522,
+                height: 1114
               },
               {
                 src: "/images/IDX/figma2.png",
-                width: 3,
-                height: 3.3
+                width: 1085,
+                height: 1149
               },
               {
                 src: "/images/IDX/figma3.png",
-                width: 3,
-                height: 3.3
+                width: 1087,
+                height: 1149
               },
               {
                 src: "/images/IDX/figma4.png",
-                width: 3,
-                height: 3.3
+                width: 1087,
+                height: 1149
               },
         ],
         link: "/portfolio/project/3",
@@ -160,24 +161,24 @@ const dataportfolio = [{
         video: "https://www.youtube.com/embed/5TgMawtcSpA",
         pictures: [
             {
-                src: "/images/Bachelor/domain.png",
-                width: 16,
-                height: 9
+                src: "/images/Bachelor/domain1.png",
+                width: 2052,
+                height: 1531
               },
               {
                 src: "/images/Bachelor/1.png",
-                width: 4,
-                height: 3.3
+                width: 1200,
+                height: 1000
               },
               {
                 src: "/images/Bachelor/2.png",
-                width: 4,
-                height: 3.3
+                width: 1200,
+                height: 1000
               },
               {
                 src: "/images/Bachelor/3.png",
-                width: 4,
-                height: 3.3
+                width: 1200,
+                height: 1000
               },
         ],
         link: "/portfolio/project/4",

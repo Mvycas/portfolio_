@@ -40,7 +40,7 @@ body {
     padding-top: 56.25%; 
     height: 0; 
     overflow: hidden; 
-    margin: 20px auto; 
+    margin: 0 auto; 
   }
   
   .video-container iframe {
@@ -57,7 +57,7 @@ body {
   }
 
   .github-button {
-    margin: 2rem 0 3rem;
+    margin: 2rem 0 0rem;
     display: inline-flex;
     align-items: center;
     background-color: #fff; 
@@ -85,5 +85,27 @@ body {
  
   :fullscreen {
     cursor: default !important;  
+}
+
+.gallery-container {
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1rem; 
+}
+
+
+.gallery-item {
+  width: 100%;
+  max-height: 250px; 
+  object-fit: cover; 
+  border-radius: 0.3rem;
+  transition: transform 0.2s; 
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
 }
 
