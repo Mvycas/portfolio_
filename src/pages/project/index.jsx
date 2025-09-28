@@ -33,7 +33,7 @@ export const Project = () => {
           </div>
           {project.git && (
             <a href={project.git} target="_blank" rel="noopener noreferrer" className="github-button">
-              <img src="/portfolio_/images/git.svg" alt="GitHub" />
+              <img src="/images/git.svg" alt="GitHub" />
               View Project on GitHub
             </a>
           )}

@@ -15,7 +15,6 @@
 
 .card {
     color: var(--clr-neutral-100);
-    background-image: url(https://media.contentapi.ea.com/content/dam/eacom/portfolio_/images/2020/09/ea-featured-image-ea-desktop-beta.jpg.adapt.crop191x100.1200w.jpg);
     background-size: cover;
     padding: 12em 0 0;
     border: none;
@@ -30,11 +29,6 @@
     transition: transform 400ms ease;
 }
 
-.card:hover,
-.card:focus-within {
-    transform: scale(1.04);
-}
-
 .card-content {
     --padding: 1.5rem;
     padding: var(--padding);
@@ -43,7 +37,7 @@
     min-width: 35ch;
     min-height: 30ch;
     background: linear-gradient(hsl(0 0% 0% / 0),
-            hsl(20 0% 0% / 0.45) 10%,
+            hsl(20 0% 0% / 0.8) 10%,
             hsl(0 0% 0% / 1));
             
 }
