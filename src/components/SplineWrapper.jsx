@@ -14,7 +14,7 @@ const SplineWrapper = () => {
   const isVisible = location.pathname === '/';
 
   return (
-    <div style={{ display: isVisible ? 'block' : 'none', height: '100%', width: '100%', position: 'absolute', zIndex: '-1' }}>
+    <div style={{ display: isVisible ? 'block' : 'hidden', height: '100%', width: '100%', position: 'absolute', zIndex: '-1' }}>
     <Suspense fallback={<div>Loading...</div>}>
       <Spline scene="https://prod.spline.design/qr3VNhtOoQghR6d1/scene.splinecode" />
     </Suspense>
